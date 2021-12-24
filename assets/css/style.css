@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --buttonPrimary : #162c53;
+    --white : #fff;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.badges {
+    color: white;
+    padding: 10px 20px;
+}
+
+.button-messages {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 20px 20px;
+}
+
+.button-messages #liveToastBtn {
+    padding: 25px;
+    border-radius: 100%;
+    box-shadow: 0 8px 32px rgba(138, 138, 138, 0.37);
+    border: 1px solid #385280;
+}
+
+.btn-primary {
+    background: var(--buttonPrimary);
+    border: 1px var(--buttonPrimary);
+}
+
+.jumbotron {
+    max-height: 100vh;
+}
+
+.jumbotron .text-content {
+    margin-top: 7rem;
+}
+
+.jumbotron .text-content h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.jumbotron .text-content span {
+    color: var(--buttonPrimary);
+    font-weight: 800;
+}
+
+.jumbotron .text-content p {
+    margin-top: 30px;
+}
+
+.jumbotron .text-content a {
+    margin-top: 15px;
+}
+
+#section-1 {
+    padding-top: 100px;
+    background: var(--buttonPrimary);
+    color: var(--white);
+    padding-bottom: 80px;
+}
+
+#section-1 h4 {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#section-1 p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#section-1 span {
+    background: yellow;
+    padding: 0 5px;
+    color: #000;
+    font-weight: 600;
+}
+
+#section-2 {
+    padding: 100px 0 80px 0;
+}
+
+.card {
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.banner {
+    background-image: url('../image/banner-background.jpg');
+    background-position-x: -280px;
+    background-attachment: fixed;
+    margin-top:50px;
+    height: 100%;
+    padding: 20px 100px;
+    text-align: center;
+}
